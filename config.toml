@@ -1,0 +1,46 @@
+
+baseURL = 'http://XXXXXXX.com/'
+languageCode = 'en-us'
+title = 'Probando hugo con el tema learn'
+theme='learn'
+defaultContentLanguage = "es"
+
+[params]
+ themeVariant="green"
+ landingPageURL = "https://es.wikieducator.org"
+ landingPageName = "<i class='fas fa-home'></i> Volver a inicio"
+
+
+ [outputs]
+home = [ "HTML", "RSS", "JSON"]
+[Shortcuts-Title]
+other = "Mas cosas!!!"
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-github'></i> Referencia de php"
+identifier = "ds"
+url = "https://php.net"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-camera'></i> Wiki del curso"
+url = "/showcase"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-bookmark'></i> Documentación de hugo"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-bookmark'></i> Documentación de plantilla learn"
+identifier = "learntheme"
+url = "https://learn.netlify.app/en/cont/"
+weight = 20
+
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-bullhorn'></i> Envía un mensaje"
+url = "/credits"
+weight = 30
